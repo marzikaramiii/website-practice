@@ -1,0 +1,122 @@
+@font-face {
+    font-family:"yekan" ;
+    src: url("fonts/Yekan.ttf") format("truetype");
+}
+body
+{
+    font-family:yekan;
+    font-size: 18px;
+}
+ul
+{
+    list-style-type: none;
+    
+}
+ul li
+{
+    display: inline-block;
+    padding: 15px;
+    cursor: pointer;
+}
+.menu
+{
+
+    display: flex;
+    align-items: center;
+}
+.img
+{
+    background-image: url(img/page-bg.jpg);
+    background-size: cover;
+    background-position: no-repeat;
+    background-position: center center;
+    height: 400px;
+    background-color: orange;
+    color: white;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+i
+{
+    font-size: 150px;
+    font-weight: bold;
+}
+.orange
+{
+    background-color: orange;
+}
+.blue
+{
+    background-color: blue;
+}
+.violet
+{
+    background-color: violet;
+}
+.green
+{
+    background-color: green;
+}
+.red
+{
+    background-color: tomato;
+}
+.box-shadow1
+{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.box-shadow2
+{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.pad
+{
+    padding: 25px 10px;
+}
+.border-radius
+{
+    border-radius: 10px;
+}
+.p-right10
+{
+    padding-right: 10px;
+}
+.p-top10
+{
+    padding-top:10px;
+}
+.p-top20
+{
+    padding-top:20px;
+}
+.p-top30
+{
+    padding-top:30px;
+}
+.p-top50
+{
+    padding-top: 50px;
+}
+.p-bot10
+{
+    padding-bottom: 10px;
+}
+.p-bot20
+{
+    padding-bottom: 20px;
+}
+.p-bot50
+{
+    padding-bottom:50px;
+}
+.p-right20
+{
+    padding-right:20px;
+}
+.footer
+{
+    background-color: grey;
+}
